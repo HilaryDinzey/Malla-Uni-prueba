@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Interactiva - Ingeniería Industrial</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <h1>Malla Interactiva - Ingeniería Industrial</h1>
+
+  <div class="periodo">
+    <h2>Período 1</h2>
+    <div class="materia" data-codigo="MAT-160">MAT-160 - Álgebra Superior (5 CR)</div>
+    <div class="materia" data-codigo="ELT-001">ELT-001 - Electiva I (1 CR)</div>
+    <div class="materia" data-codigo="LEX-110">LEX-110 - Inglés Básico (3 CR)</div>
+    <div class="materia" data-codigo="INF-158">INF-158 - Introducción a la Informática (5 CR)</div>
+    <div class="materia" data-codigo="SOC-100">SOC-100 - Introducción a la Sociología (3 CR)</div>
+    <div class="materia" data-codigo="LET-101">LET-101 - Lengua Española I (3 CR)</div>
+    <div class="materia" data-codigo="ORI-100">ORI-100 - Orientación Universitaria (1 CR)</div>
+  </div>
+
+  <div class="periodo">
+    <h2>Período 2</h2>
+    <div class="materia bloqueada" data-codigo="MAT-170" data-prereq="MAT-160">MAT-170 - Cálculo I (3 CR)</div>
+    <div class="materia bloqueada" data-codigo="ING-301" data-prereq="INF-158">ING-301 - Informática Aplicada (3 CR)</div>
+    <div class="materia bloqueada" data-codigo="LEX-145" data-prereq="LEX-110">LEX-145 - Inglés Intro. para Ing. Indust. (3 CR)</div>
+    <div class="materia bloqueada" data-codigo="ECO-100" data-prereq="MAT-160">ECO-100 - Introducción a la Economía (3 CR)</div>
+    <div class="materia" data-codigo="INI-121">INI-121 - Introducción a la Ing. Industrial (3 CR)</div>
+    <div class="materia bloqueada" data-codigo="LET-102" data-prereq="LET-101">LET-102 - Lengua Española II (3 CR)</div>
+    <div class="materia" data-codigo="EDU-107">EDU-107 - Técnicas de Estudio e Investigación (3 CR)</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
